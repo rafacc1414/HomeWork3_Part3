@@ -1,0 +1,36 @@
+
+fsm_encoding {10301301} sequential
+
+fsm_state_encoding {10301301} sta {0}
+
+fsm_state_encoding {10301301} stb {1}
+
+fsm_registers {10301301} {PS[0]} 
+
+fsm_encoding {14291292} sequential
+
+fsm_state_encoding {14291292} sta {0}
+
+fsm_state_encoding {14291292} stb {1}
+
+fsm_registers {14291292} {PS[0]} 
+
+fsm_encoding {15281283} sequential
+
+fsm_state_encoding {15281283} sta {00}
+
+fsm_state_encoding {15281283} stb {01}
+
+fsm_state_encoding {15281283} stc {10}
+
+fsm_registers {15281283} {PS[1]}  {PS[0]} 
+
+fsm_encoding {15281283} sequential
+
+fsm_state_encoding {15281283} sta {00}
+
+fsm_state_encoding {15281283} stb {01}
+
+fsm_state_encoding {15281283} stc {10}
+
+fsm_registers {15281283} {PS[1]}  {PS[0]} 

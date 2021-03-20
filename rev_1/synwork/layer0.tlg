@@ -1,0 +1,62 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":7:7:7:27|Synthesizing work.mia_simple_fifo_synch.rtl.
+@W: CG296 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":84:4:84:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":86:21:86:28|Referenced variable mux_in_1 is not in sensitivity list.
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FF_D.vhd":11:7:11:10|Synthesizing work.d_ff.my_d_ff.
+Post processing for work.d_ff.my_d_ff
+Running optimization stage 1 on d_ff .......
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":7:7:7:17|Synthesizing work.fsm_address.rtl.
+@N: CD233 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":21:18:21:19|Using sequential encoding for type state_type.
+@N: CD604 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":59:8:59:21|OTHERS clause is not synthesized.
+Post processing for work.fsm_address.rtl
+Running optimization stage 1 on FSM_Address .......
+@W: CL117 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":42:4:42:7|Latch generated from process for signal comb_proc.S(9 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":8:7:8:15|Synthesizing work.ram_infer.rtl.
+@W: CG296 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":30:6:30:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":32:44:32:48|Referenced variable wr_en is not in sensitivity list.
+@W: CG296 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":37:5:37:11|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":39:44:39:48|Referenced variable rd_en is not in sensitivity list.
+Post processing for work.ram_infer.rtl
+Running optimization stage 1 on ram_infer .......
+@N: CL134 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":25:10:25:18|Found RAM ram_block, depth=1024, width=16
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\Sinchroniser.vhd":9:7:9:18|Synthesizing work.sinchroniser.rtl.
+Post processing for work.sinchroniser.rtl
+Running optimization stage 1 on Sinchroniser .......
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd":7:7:7:13|Synthesizing work.rd_ctrl.rtl.
+@N: CD233 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd":22:18:22:19|Using sequential encoding for type state_type.
+Post processing for work.rd_ctrl.rtl
+Running optimization stage 1 on RD_Ctrl .......
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd":7:7:7:13|Synthesizing work.wr_ctrl.rtl.
+@N: CD233 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd":23:18:23:19|Using sequential encoding for type state_type.
+Post processing for work.wr_ctrl.rtl
+Running optimization stage 1 on WR_Ctrl .......
+Post processing for work.mia_simple_fifo_synch.rtl
+Running optimization stage 1 on mia_simple_fifo_synch .......
+Running optimization stage 2 on WR_Ctrl .......
+@N: CL201 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd":30:1:30:2|Trying to extract state machine for register PS.
+Extracted state machine for register PS
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+Running optimization stage 2 on RD_Ctrl .......
+@N: CL201 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd":29:1:29:2|Trying to extract state machine for register PS.
+Extracted state machine for register PS
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+Running optimization stage 2 on Sinchroniser .......
+Running optimization stage 2 on ram_infer .......
+Running optimization stage 2 on FSM_Address .......
+@N: CL201 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":28:1:28:2|Trying to extract state machine for register PS.
+Extracted state machine for register PS
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on d_ff .......
+Running optimization stage 2 on mia_simple_fifo_synch .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synwork\layer0.rt.csv
+

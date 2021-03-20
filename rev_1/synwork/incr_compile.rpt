@@ -1,0 +1,62 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+11       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd (2021-03-20 18:26:51, 2021-03-20 18:41:13)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+14       work.fsm_address.rtl may have changed because the following files changed:
+                        C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd (2021-03-20 18:26:51, 2021-03-20 18:41:13) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 17
+FID:  path (timestamp)
+0        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\arith.vhd (2020-11-03 08:58:13)
+1        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\location.map (2020-11-03 08:58:13)
+2        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\numeric.vhd (2020-11-03 08:58:13)
+3        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std.vhd (2020-11-03 08:58:13)
+4        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std1164.vhd (2020-11-03 08:58:13)
+5        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std_textio.vhd (2020-11-03 08:58:13)
+6        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\unsigned.vhd (2020-11-03 08:58:13)
+7        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd\hyperents.vhd (2020-11-03 08:58:13)
+8        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2020-11-03 08:58:13)
+9        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd\umr_capim.vhd (2020-11-03 08:58:13)
+10       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FF_D.vhd (2021-03-20 18:08:54)
+12       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd (2021-03-20 18:09:10)
+13       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd (2021-03-20 18:09:10)
+14       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\Sinchroniser.vhd (2021-03-20 18:09:10)
+15       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd (2021-03-20 18:24:52)
+16       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd (2021-03-20 18:08:49)
+17       C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\package.vhd (2021-03-20 18:09:10)
+
+*******************************************************************
+Unchanged modules: 12
+MID:  lib.cell.view
+0        work.d_ff.my_d_ff
+1        work.d_ff.vhdl
+4        work.mia_simple_fifo_synch.rtl
+5        work.mia_simple_fifo_synch.vhdl
+6        work.ram_infer.rtl
+7        work.ram_infer.vhdl
+8        work.rd_ctrl.rtl
+9        work.rd_ctrl.vhdl
+10       work.sinchroniser.rtl
+11       work.sinchroniser.vhdl
+12       work.wr_ctrl.rtl
+13       work.wr_ctrl.vhdl

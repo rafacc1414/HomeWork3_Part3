@@ -1,0 +1,1011 @@
+#Build: Synplify Pro (R) Q-2020.03M-SP1, Build 166R, Oct 19 2020
+#install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-V8NANO1
+
+# Sat Mar 20 18:41:17 2021
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+Synopsys VHDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":7:7:7:27|Top entity is set to mia_simple_fifo_synch.
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\package.vhd changed - recompiling
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd changed - recompiling
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FF_D.vhd changed - recompiling
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\Sinchroniser.vhd changed - recompiling
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd changed - recompiling
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd changed - recompiling
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":7:7:7:27|Synthesizing work.mia_simple_fifo_synch.rtl.
+@W: CG296 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":84:4:84:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":86:21:86:28|Referenced variable mux_in_1 is not in sensitivity list.
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FF_D.vhd":11:7:11:10|Synthesizing work.d_ff.my_d_ff.
+Post processing for work.d_ff.my_d_ff
+Running optimization stage 1 on d_ff .......
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":7:7:7:17|Synthesizing work.fsm_address.rtl.
+@N: CD233 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":21:18:21:19|Using sequential encoding for type state_type.
+@N: CD604 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":59:8:59:21|OTHERS clause is not synthesized.
+Post processing for work.fsm_address.rtl
+Running optimization stage 1 on FSM_Address .......
+@W: CL117 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":42:4:42:7|Latch generated from process for signal comb_proc.S(9 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":8:7:8:15|Synthesizing work.ram_infer.rtl.
+@W: CG296 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":30:6:30:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":32:44:32:48|Referenced variable wr_en is not in sensitivity list.
+@W: CG296 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":37:5:37:11|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":39:44:39:48|Referenced variable rd_en is not in sensitivity list.
+Post processing for work.ram_infer.rtl
+Running optimization stage 1 on ram_infer .......
+@N: CL134 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd":25:10:25:18|Found RAM ram_block, depth=1024, width=16
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\Sinchroniser.vhd":9:7:9:18|Synthesizing work.sinchroniser.rtl.
+Post processing for work.sinchroniser.rtl
+Running optimization stage 1 on Sinchroniser .......
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd":7:7:7:13|Synthesizing work.rd_ctrl.rtl.
+@N: CD233 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd":22:18:22:19|Using sequential encoding for type state_type.
+Post processing for work.rd_ctrl.rtl
+Running optimization stage 1 on RD_Ctrl .......
+@N: CD630 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd":7:7:7:13|Synthesizing work.wr_ctrl.rtl.
+@N: CD233 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd":23:18:23:19|Using sequential encoding for type state_type.
+Post processing for work.wr_ctrl.rtl
+Running optimization stage 1 on WR_Ctrl .......
+Post processing for work.mia_simple_fifo_synch.rtl
+Running optimization stage 1 on mia_simple_fifo_synch .......
+Running optimization stage 2 on WR_Ctrl .......
+@N: CL201 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd":30:1:30:2|Trying to extract state machine for register PS.
+Extracted state machine for register PS
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+Running optimization stage 2 on RD_Ctrl .......
+@N: CL201 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd":29:1:29:2|Trying to extract state machine for register PS.
+Extracted state machine for register PS
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+Running optimization stage 2 on Sinchroniser .......
+Running optimization stage 2 on ram_infer .......
+Running optimization stage 2 on FSM_Address .......
+@N: CL201 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd":28:1:28:2|Trying to extract state machine for register PS.
+Extracted state machine for register PS
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on d_ff .......
+Running optimization stage 2 on mia_simple_fifo_synch .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 94MB peak: 95MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Mar 20 18:41:19 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synwork\layer0.srs changed - recompiling
+@N: NF107 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd":7:7:7:27|Selected library: work cell: mia_simple_fifo_synch view rtl as top level
+@N: NF107 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd":7:7:7:27|Selected library: work cell: mia_simple_fifo_synch view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 20 18:41:20 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synwork\Implementation_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 24MB peak: 24MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Mar 20 18:41:20 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+File C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synwork\Implementation_comp.srs changed - recompiling
+@N: NF107 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd":7:7:7:27|Selected library: work cell: mia_simple_fifo_synch view rtl as top level
+@N: NF107 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd":7:7:7:27|Selected library: work cell: mia_simple_fifo_synch view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Mar 20 18:41:21 2021
+
+###########################################################]
+# Sat Mar 20 18:41:21 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation_scck.rpt 
+See clock summary report "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 130MB)
+
+@W: FX1172 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\ff_d.vhd":26:4:26:5|User-specified initial value defined for instance Read_Bit_Sinchroniser.FF2.S is being ignored due to limitations in architecture. 
+@N: FX1184 |Applying syn_allowed_resources blockrams=69 on top level netlist mia_simple_fifo_synch 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                  Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                  Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------
+0 -       mia_simple_fifo_synch|rd_clk           150.0 MHz     6.667         inferred     Inferred_clkgroup_0     42   
+                                                                                                                       
+0 -       mia_simple_fifo_synch|wr_clk           150.0 MHz     6.667         inferred     Inferred_clkgroup_2     25   
+                                                                                                                       
+0 -       FSM_Address_0|PS_inferred_clock[1]     150.0 MHz     6.667         inferred     Inferred_clkgroup_1     10   
+                                                                                                                       
+0 -       FSM_Address_1|PS_inferred_clock[1]     150.0 MHz     6.667         inferred     Inferred_clkgroup_3     10   
+=======================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                       Clock     Source                                   Clock Pin                        Non-clock Pin     Non-clock Pin
+Clock                                  Load      Pin                                      Seq Example                      Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+mia_simple_fifo_synch|rd_clk           42        rd_clk(port)                             FF_Out.S.C                       -                 -            
+                                                                                                                                                          
+mia_simple_fifo_synch|wr_clk           25        wr_clk(port)                             Write_FSM.PS[0:2].C              -                 -            
+                                                                                                                                                          
+FSM_Address_0|PS_inferred_clock[1]     10        Read_FSM.PS[0:2].Q[1](statemachine)      Read_FSM.address_out[9:0].C      -                 -            
+                                                                                                                                                          
+FSM_Address_1|PS_inferred_clock[1]     10        Write_FSM.PS[0:2].Q[1](statemachine)     Write_FSM.address_out[9:0].C     -                 -            
+==========================================================================================================================================================
+
+@W: MT530 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\ff_d.vhd":26:4:26:5|Found inferred clock mia_simple_fifo_synch|rd_clk which controls 42 sequential elements including Read_RST_Sinchroniser.FF1.S. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\fsm_address.vhd":42:4:42:7|Found inferred clock FSM_Address_0|PS_inferred_clock[1] which controls 10 sequential elements including Read_FSM.address_out[9:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\ff_d.vhd":26:4:26:5|Found inferred clock mia_simple_fifo_synch|wr_clk which controls 25 sequential elements including Write_RST_Sinchroniser.FF1.S. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\fsm_address.vhd":42:4:42:7|Found inferred clock FSM_Address_1|PS_inferred_clock[1] which controls 10 sequential elements including Write_FSM.address_out[9:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+Encoding state machine PS[0:1] (in view: work.WR_Ctrl(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\writecontroller.vhd":30:1:30:2|There are no possible illegal states for state machine PS[0:1] (in view: work.WR_Ctrl(rtl)); safe FSM implementation is not required.
+Encoding state machine PS[0:1] (in view: work.RD_Ctrl(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\readcontroller.vhd":29:1:29:2|There are no possible illegal states for state machine PS[0:1] (in view: work.RD_Ctrl(rtl)); safe FSM implementation is not required.
+Encoding state machine PS[0:2] (in view: work.FSM_Address_1(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine PS[0:2] (in view: work.FSM_Address_0(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 167MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 20 18:41:23 2021
+
+###########################################################]
+# Sat Mar 20 18:41:24 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 130MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+Encoding state machine RD_CTRL1.PS[0:1] (in view: work.mia_simple_fifo_synch(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\readcontroller.vhd":29:1:29:2|There are no possible illegal states for state machine RD_CTRL1.PS[0:1] (in view: work.mia_simple_fifo_synch(rtl)); safe FSM implementation is not required.
+@N: FX403 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd":25:10:25:18|Property "block_ram" or "no_rw_check" found for RAM SDPRAM.ram_block[15:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd":25:10:25:18|RAM SDPRAM.ram_block[15:0] (in view: work.mia_simple_fifo_synch(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@A: BN291 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd":39:6:39:7|Boundary register SDPRAM.q[15:0] (in view: work.mia_simple_fifo_synch(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF179 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd":86:12:86:28|Found 16 by 16 bit equality operator ('==') un1_Mux_in_1 (in view: work.mia_simple_fifo_synch(rtl))
+Encoding state machine PS[0:1] (in view: work.WR_Ctrl(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\writecontroller.vhd":30:1:30:2|There are no possible illegal states for state machine PS[0:1] (in view: work.WR_Ctrl(rtl)); safe FSM implementation is not required.
+Encoding state machine PS[0:2] (in view: work.FSM_Address_1(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine PS[0:2] (in view: work.FSM_Address_0(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 167MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 167MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 168MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 168MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 168MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 168MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     1.92ns		  39 /        31
+@N: FP130 |Promoting Net rd_clk_c on CLKINT  I_37 
+@N: FP130 |Promoting Net Read_FSM.PS_6 on CLKINT  I_38 
+@N: FP130 |Promoting Net Write_FSM.PS_6 on CLKINT  I_39 
+@N: FP130 |Promoting Net wr_clk_c on CLKINT  I_40 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 168MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 169MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 50 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 20 clock pin(s) of sequential element(s)
+0 instances converted, 20 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0003       rd_clk              port                   42         FF_Out.S       
+@K:CKID0004       wr_clk              port                   8          Write_FSM.PS[1]
+=======================================================================================
+================================================================== Gated/Generated Clocks ==================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance              Explanation                                            
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       Write_FSM.PS[0]     SLE                    10         Write_FSM.address_out[0]     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0002       Read_FSM.PS[0]      SLE                    10         Read_FSM.address_out[0]      No gated clock conversion method for cell cell:ACG4.SLE
+============================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 141MB peak: 169MB)
+
+Writing Analyst data base C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synwork\Implementation_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 169MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 169MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 170MB)
+
+@W: MT420 |Found inferred clock mia_simple_fifo_synch|rd_clk with period 6.67ns. Please declare a user-defined clock on port rd_clk.
+@W: MT420 |Found inferred clock FSM_Address_0|PS_inferred_clock[1] with period 6.67ns. Please declare a user-defined clock on net Read_FSM.PS_0[1].
+@W: MT420 |Found inferred clock mia_simple_fifo_synch|wr_clk with period 6.67ns. Please declare a user-defined clock on port wr_clk.
+@W: MT420 |Found inferred clock FSM_Address_1|PS_inferred_clock[1] with period 6.67ns. Please declare a user-defined clock on net Write_FSM.PS[1].
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Mar 20 18:41:29 2021
+#
+
+
+Top view:               mia_simple_fifo_synch
+Requested Frequency:    150.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.763
+
+                                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                         Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------
+FSM_Address_0|PS_inferred_clock[1]     150.0 MHz     660.9 MHz     6.667         1.513         5.154     inferred     Inferred_clkgroup_1
+FSM_Address_1|PS_inferred_clock[1]     150.0 MHz     660.9 MHz     6.667         1.513         5.154     inferred     Inferred_clkgroup_3
+mia_simple_fifo_synch|rd_clk           150.0 MHz     203.9 MHz     6.667         4.904         1.763     inferred     Inferred_clkgroup_0
+mia_simple_fifo_synch|wr_clk           150.0 MHz     473.6 MHz     6.667         2.111         4.555     inferred     Inferred_clkgroup_2
+=========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                            Ending                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+mia_simple_fifo_synch|rd_clk        mia_simple_fifo_synch|rd_clk        |  6.667       1.763  |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|rd_clk        mia_simple_fifo_synch|wr_clk        |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+FSM_Address_0|PS_inferred_clock[1]  mia_simple_fifo_synch|rd_clk        |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+FSM_Address_0|PS_inferred_clock[1]  FSM_Address_0|PS_inferred_clock[1]  |  6.667       5.154  |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|wr_clk        mia_simple_fifo_synch|rd_clk        |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|wr_clk        mia_simple_fifo_synch|wr_clk        |  6.667       4.555  |  No paths    -      |  No paths    -      |  No paths    -    
+FSM_Address_1|PS_inferred_clock[1]  mia_simple_fifo_synch|wr_clk        |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+FSM_Address_1|PS_inferred_clock[1]  FSM_Address_1|PS_inferred_clock[1]  |  6.667       5.154  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FSM_Address_0|PS_inferred_clock[1]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                                                  Arrival          
+Instance                    Reference                              Type     Pin     Net               Time        Slack
+                            Clock                                                                                      
+-----------------------------------------------------------------------------------------------------------------------
+Read_FSM.address_out[0]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[0]     0.108       5.154
+Read_FSM.address_out[1]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[1]     0.108       5.356
+Read_FSM.address_out[2]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[2]     0.108       5.373
+Read_FSM.address_out[3]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[3]     0.108       5.389
+Read_FSM.address_out[4]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[4]     0.108       5.405
+Read_FSM.address_out[5]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[5]     0.108       5.421
+Read_FSM.address_out[6]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[6]     0.108       5.436
+Read_FSM.address_out[7]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[7]     0.108       5.436
+Read_FSM.address_out[8]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[8]     0.108       5.436
+Read_FSM.address_out[9]     FSM_Address_0|PS_inferred_clock[1]     SLE      Q       rd_address[9]     0.108       5.436
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                                                       Required          
+Instance                    Reference                              Type     Pin     Net                    Time         Slack
+                            Clock                                                                                            
+-----------------------------------------------------------------------------------------------------------------------------
+Read_FSM.address_out[9]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_s_9_S       6.411        5.154
+Read_FSM.address_out[8]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_8_S     6.411        5.170
+Read_FSM.address_out[7]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_7_S     6.411        5.186
+Read_FSM.address_out[6]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_6_S     6.411        5.202
+Read_FSM.address_out[5]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_5_S     6.411        5.219
+Read_FSM.address_out[4]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_4_S     6.411        5.235
+Read_FSM.address_out[3]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_3_S     6.411        5.251
+Read_FSM.address_out[2]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_2_S     6.411        5.268
+Read_FSM.address_out[1]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_1_S     6.411        5.284
+Read_FSM.address_out[0]     FSM_Address_0|PS_inferred_clock[1]     SLE      D       rd_address_i[0]        6.411        5.458
+=============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.411
+
+    - Propagation time:                      1.258
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.154
+
+    Number of logic level(s):                10
+    Starting point:                          Read_FSM.address_out[0] / Q
+    Ending point:                            Read_FSM.address_out[9] / D
+    The start point is clocked by            FSM_Address_0|PS_inferred_clock[1] [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+    The end   point is clocked by            FSM_Address_0|PS_inferred_clock[1] [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                           Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+Read_FSM.address_out[0]        SLE      Q        Out     0.108     0.108 f     -         
+rd_address[0]                  Net      -        -       0.497     -           3         
+Read_FSM.un4_my_int_s_1_35     ARI1     B        In      -         0.605 f     -         
+Read_FSM.un4_my_int_s_1_35     ARI1     FCO      Out     0.201     0.806 f     -         
+un4_my_int_s_1_35_FCO          Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_1      ARI1     FCI      In      -         0.806 f     -         
+Read_FSM.un4_my_int_cry_1      ARI1     FCO      Out     0.016     0.822 f     -         
+un4_my_int_cry_1               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_2      ARI1     FCI      In      -         0.822 f     -         
+Read_FSM.un4_my_int_cry_2      ARI1     FCO      Out     0.016     0.839 f     -         
+un4_my_int_cry_2               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_3      ARI1     FCI      In      -         0.839 f     -         
+Read_FSM.un4_my_int_cry_3      ARI1     FCO      Out     0.016     0.855 f     -         
+un4_my_int_cry_3               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_4      ARI1     FCI      In      -         0.855 f     -         
+Read_FSM.un4_my_int_cry_4      ARI1     FCO      Out     0.016     0.871 f     -         
+un4_my_int_cry_4               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_5      ARI1     FCI      In      -         0.871 f     -         
+Read_FSM.un4_my_int_cry_5      ARI1     FCO      Out     0.016     0.887 f     -         
+un4_my_int_cry_5               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_6      ARI1     FCI      In      -         0.887 f     -         
+Read_FSM.un4_my_int_cry_6      ARI1     FCO      Out     0.016     0.904 f     -         
+un4_my_int_cry_6               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_7      ARI1     FCI      In      -         0.904 f     -         
+Read_FSM.un4_my_int_cry_7      ARI1     FCO      Out     0.016     0.920 f     -         
+un4_my_int_cry_7               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_cry_8      ARI1     FCI      In      -         0.920 f     -         
+Read_FSM.un4_my_int_cry_8      ARI1     FCO      Out     0.016     0.936 f     -         
+un4_my_int_cry_8               Net      -        -       0.000     -           1         
+Read_FSM.un4_my_int_s_9        ARI1     FCI      In      -         0.936 f     -         
+Read_FSM.un4_my_int_s_9        ARI1     S        Out     0.073     1.009 r     -         
+un4_my_int_s_9_S               Net      -        -       0.248     -           1         
+Read_FSM.address_out[9]        SLE      D        In      -         1.258 r     -         
+=========================================================================================
+Total path delay (propagation time + setup) of 1.513 is 0.768(50.7%) logic and 0.745(49.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: FSM_Address_1|PS_inferred_clock[1]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                  Arrival          
+Instance                     Reference                              Type     Pin     Net               Time        Slack
+                             Clock                                                                                      
+------------------------------------------------------------------------------------------------------------------------
+Write_FSM.address_out[0]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[0]     0.108       5.154
+Write_FSM.address_out[1]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[1]     0.108       5.356
+Write_FSM.address_out[2]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[2]     0.108       5.373
+Write_FSM.address_out[3]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[3]     0.108       5.389
+Write_FSM.address_out[4]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[4]     0.108       5.405
+Write_FSM.address_out[5]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[5]     0.108       5.421
+Write_FSM.address_out[6]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[6]     0.108       5.436
+Write_FSM.address_out[7]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[7]     0.108       5.436
+Write_FSM.address_out[8]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[8]     0.108       5.436
+Write_FSM.address_out[9]     FSM_Address_1|PS_inferred_clock[1]     SLE      Q       wr_address[9]     0.108       5.436
+========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                                         Required          
+Instance                     Reference                              Type     Pin     Net                      Time         Slack
+                             Clock                                                                                              
+--------------------------------------------------------------------------------------------------------------------------------
+Write_FSM.address_out[9]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_s_9_S_0       6.411        5.154
+Write_FSM.address_out[8]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_8_S_0     6.411        5.170
+Write_FSM.address_out[7]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_7_S_0     6.411        5.186
+Write_FSM.address_out[6]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_6_S_0     6.411        5.202
+Write_FSM.address_out[5]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_5_S_0     6.411        5.219
+Write_FSM.address_out[4]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_4_S_0     6.411        5.235
+Write_FSM.address_out[3]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_3_S_0     6.411        5.251
+Write_FSM.address_out[2]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_2_S_0     6.411        5.268
+Write_FSM.address_out[1]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       un4_my_int_cry_1_S_0     6.411        5.284
+Write_FSM.address_out[0]     FSM_Address_1|PS_inferred_clock[1]     SLE      D       wr_address_i[0]          6.411        5.458
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.411
+
+    - Propagation time:                      1.258
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.154
+
+    Number of logic level(s):                10
+    Starting point:                          Write_FSM.address_out[0] / Q
+    Ending point:                            Write_FSM.address_out[9] / D
+    The start point is clocked by            FSM_Address_1|PS_inferred_clock[1] [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+    The end   point is clocked by            FSM_Address_1|PS_inferred_clock[1] [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+Write_FSM.address_out[0]        SLE      Q        Out     0.108     0.108 f     -         
+wr_address[0]                   Net      -        -       0.497     -           3         
+Write_FSM.un4_my_int_s_1_36     ARI1     B        In      -         0.605 f     -         
+Write_FSM.un4_my_int_s_1_36     ARI1     FCO      Out     0.201     0.806 f     -         
+un4_my_int_s_1_36_FCO           Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_1      ARI1     FCI      In      -         0.806 f     -         
+Write_FSM.un4_my_int_cry_1      ARI1     FCO      Out     0.016     0.822 f     -         
+un4_my_int_cry_1                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_2      ARI1     FCI      In      -         0.822 f     -         
+Write_FSM.un4_my_int_cry_2      ARI1     FCO      Out     0.016     0.839 f     -         
+un4_my_int_cry_2                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_3      ARI1     FCI      In      -         0.839 f     -         
+Write_FSM.un4_my_int_cry_3      ARI1     FCO      Out     0.016     0.855 f     -         
+un4_my_int_cry_3                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_4      ARI1     FCI      In      -         0.855 f     -         
+Write_FSM.un4_my_int_cry_4      ARI1     FCO      Out     0.016     0.871 f     -         
+un4_my_int_cry_4                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_5      ARI1     FCI      In      -         0.871 f     -         
+Write_FSM.un4_my_int_cry_5      ARI1     FCO      Out     0.016     0.887 f     -         
+un4_my_int_cry_5                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_6      ARI1     FCI      In      -         0.887 f     -         
+Write_FSM.un4_my_int_cry_6      ARI1     FCO      Out     0.016     0.904 f     -         
+un4_my_int_cry_6                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_7      ARI1     FCI      In      -         0.904 f     -         
+Write_FSM.un4_my_int_cry_7      ARI1     FCO      Out     0.016     0.920 f     -         
+un4_my_int_cry_7                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_cry_8      ARI1     FCI      In      -         0.920 f     -         
+Write_FSM.un4_my_int_cry_8      ARI1     FCO      Out     0.016     0.936 f     -         
+un4_my_int_cry_8                Net      -        -       0.000     -           1         
+Write_FSM.un4_my_int_s_9        ARI1     FCI      In      -         0.936 f     -         
+Write_FSM.un4_my_int_s_9        ARI1     S        Out     0.073     1.009 r     -         
+un4_my_int_s_9_S_0              Net      -        -       0.248     -           1         
+Write_FSM.address_out[9]        SLE      D        In      -         1.258 r     -         
+==========================================================================================
+Total path delay (propagation time + setup) of 1.513 is 0.768(50.7%) logic and 0.745(49.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: mia_simple_fifo_synch|rd_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                                                         Arrival          
+Instance                           Reference                        Type        Pin            Net                                  Time        Slack
+                                   Clock                                                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[0]      ram_block_ram_block_0_0_NEWA[0]      2.263       1.763
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[2]      ram_block_ram_block_0_0_NEWA[2]      2.263       1.777
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[4]      ram_block_ram_block_0_0_NEWA[4]      2.263       1.792
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[6]      ram_block_ram_block_0_0_NEWA[6]      2.263       1.806
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[8]      ram_block_ram_block_0_0_NEWA[8]      2.263       1.821
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[10]     ram_block_ram_block_0_0_NEWA[10]     2.263       1.836
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[12]     ram_block_ram_block_0_0_NEWA[12]     2.263       1.850
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[14]     ram_block_ram_block_0_0_NEWA[14]     2.263       1.865
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[1]      ram_block_ram_block_0_0_NEWA[1]      2.263       2.133
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[3]      ram_block_ram_block_0_0_NEWA[3]      2.263       2.148
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                                                         Required          
+Instance                    Reference                        Type     Pin     Net                            Time         Slack
+                            Clock                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------
+FF_Out.S                    mia_simple_fifo_synch|rd_clk     SLE      D       un1_Mux_in_1_0_data_tmp[7]     6.411        1.763
+Registers\.1\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[1]                   6.411        2.619
+Registers\.11\.FF_Out.S     mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[11]                  6.411        2.619
+Registers\.4\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[4]                   6.411        2.619
+Registers\.6\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[6]                   6.411        2.619
+Registers\.12\.FF_Out.S     mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[12]                  6.411        2.619
+Registers\.5\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[5]                   6.411        2.619
+Registers\.7\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[7]                   6.411        2.619
+Registers\.0\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[0]                   6.411        2.619
+Registers\.15\.FF_Out.S     mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[15]                  6.411        2.619
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.411
+
+    - Propagation time:                      4.649
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.763
+
+    Number of logic level(s):                9
+    Starting point:                          SDPRAM.ram_block_ram_block_0_0 / A_DOUT[0]
+    Ending point:                            FF_Out.S / D
+    The start point is clocked by            mia_simple_fifo_synch|rd_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin A_CLK
+    The end   point is clocked by            mia_simple_fifo_synch|rd_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+
+Instance / Net                                                 Pin           Pin               Arrival     No. of    
+Name                                               Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+SDPRAM.ram_block_ram_block_0_0                     RAM1K18     A_DOUT[0]     Out     2.263     2.263 r     -         
+ram_block_ram_block_0_0_NEWA[0]                    Net         -             -       0.248     -           1         
+SDPRAM.ram_block_ram_block_0_0_OLDA_RNIBDRG[0]     CFG3        B             In      -         2.511 r     -         
+SDPRAM.ram_block_ram_block_0_0_OLDA_RNIBDRG[0]     CFG3        Y             Out     0.165     2.676 r     -         
+rd_data_c[0]                                       Net         -             -       1.117     -           4         
+un1_Mux_in_1_0_I_1                                 ARI1        D             In      -         3.793 r     -         
+un1_Mux_in_1_0_I_1                                 ARI1        FCO           Out     0.505     4.298 r     -         
+un1_Mux_in_1_0_data_tmp[0]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_9                                 ARI1        FCI           In      -         4.298 r     -         
+un1_Mux_in_1_0_I_9                                 ARI1        FCO           Out     0.015     4.313 r     -         
+un1_Mux_in_1_0_data_tmp[1]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_15                                ARI1        FCI           In      -         4.313 r     -         
+un1_Mux_in_1_0_I_15                                ARI1        FCO           Out     0.015     4.327 r     -         
+un1_Mux_in_1_0_data_tmp[2]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_27                                ARI1        FCI           In      -         4.327 r     -         
+un1_Mux_in_1_0_I_27                                ARI1        FCO           Out     0.015     4.342 r     -         
+un1_Mux_in_1_0_data_tmp[3]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_45                                ARI1        FCI           In      -         4.342 r     -         
+un1_Mux_in_1_0_I_45                                ARI1        FCO           Out     0.015     4.356 r     -         
+un1_Mux_in_1_0_data_tmp[4]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_33                                ARI1        FCI           In      -         4.356 r     -         
+un1_Mux_in_1_0_I_33                                ARI1        FCO           Out     0.015     4.371 r     -         
+un1_Mux_in_1_0_data_tmp[5]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_39                                ARI1        FCI           In      -         4.371 r     -         
+un1_Mux_in_1_0_I_39                                ARI1        FCO           Out     0.015     4.386 r     -         
+un1_Mux_in_1_0_data_tmp[6]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_21                                ARI1        FCI           In      -         4.386 r     -         
+un1_Mux_in_1_0_I_21                                ARI1        FCO           Out     0.015     4.400 r     -         
+un1_Mux_in_1_0_data_tmp[7]                         Net         -             -       0.248     -           1         
+FF_Out.S                                           SLE         D             In      -         4.649 r     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 4.904 is 3.290(67.1%) logic and 1.614(32.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: mia_simple_fifo_synch|wr_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                          Arrival          
+Instance                         Reference                        Type     Pin     Net             Time        Slack
+                                 Clock                                                                              
+--------------------------------------------------------------------------------------------------------------------
+WR_CTRL1.PS[0]                   mia_simple_fifo_synch|wr_clk     SLE      Q       PS[0]           0.087       4.555
+Write_RST_Sinchroniser.FF2.S     mia_simple_fifo_synch|wr_clk     SLE      Q       wr_rst_sync     0.087       5.166
+Read_Bit_Sinchroniser.FF2.S      mia_simple_fifo_synch|wr_clk     SLE      Q       rd_bit          0.108       5.658
+Read_Bit_Sinchroniser.FF1.S      mia_simple_fifo_synch|wr_clk     SLE      Q       S               0.087       5.750
+Write_RST_Sinchroniser.FF1.S     mia_simple_fifo_synch|wr_clk     SLE      Q       S               0.087       5.750
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                                    Required          
+Instance                           Reference                        Type        Pin          Net               Time         Slack
+                                   Clock                                                                                         
+---------------------------------------------------------------------------------------------------------------------------------
+Write_FSM.PS[0]                    mia_simple_fifo_synch|wr_clk     SLE         D            PS_nss[0]         6.411        4.555
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|wr_clk     RAM1K18     B_WEN[0]     wr_busy_c         6.133        4.572
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|wr_clk     RAM1K18     B_WEN[1]     wr_busy_c         6.133        4.572
+WR_CTRL1.PS[0]                     mia_simple_fifo_synch|wr_clk     SLE         D            PS_nsss[0]        6.411        5.209
+Write_FSM.PS[1]                    mia_simple_fifo_synch|wr_clk     SLE         D            wr_rst_sync_i     6.411        5.209
+Read_Bit_Sinchroniser.FF2.S        mia_simple_fifo_synch|wr_clk     SLE         D            S_0               6.411        5.750
+Write_RST_Sinchroniser.FF2.S       mia_simple_fifo_synch|wr_clk     SLE         D            S_0_2             6.411        5.750
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.411
+
+    - Propagation time:                      1.856
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.555
+
+    Number of logic level(s):                2
+    Starting point:                          WR_CTRL1.PS[0] / Q
+    Ending point:                            Write_FSM.PS[0] / D
+    The start point is clocked by            mia_simple_fifo_synch|wr_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+    The end   point is clocked by            mia_simple_fifo_synch|wr_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+WR_CTRL1.PS[0]            SLE      Q        Out     0.087     0.087 r     -         
+PS[0]                     Net      -        -       0.248     -           1         
+WR_CTRL1.we_out           CFG2     A        In      -         0.336 r     -         
+WR_CTRL1.we_out           CFG2     Y        Out     0.077     0.413 r     -         
+wr_busy_c                 Net      -        -       1.117     -           6         
+Write_FSM.PS_srsts[0]     CFG2     A        In      -         1.530 r     -         
+Write_FSM.PS_srsts[0]     CFG2     Y        Out     0.077     1.608 r     -         
+PS_nss[0]                 Net      -        -       0.248     -           1         
+Write_FSM.PS[0]           SLE      D        In      -         1.856 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 2.111 is 0.497(23.6%) logic and 1.614(76.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 170MB peak: 170MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 170MB peak: 170MB)
+
+---------------------------------------
+Resource Usage Report for mia_simple_fifo_synch 
+
+Mapping to part: m2s050tvf400std
+Cell usage:
+CLKINT          4 uses
+CFG1           6 uses
+CFG2           9 uses
+CFG3           16 uses
+
+Carry cells:
+ARI1            28 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            68 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 39
+I/O primitives: 39
+INBUF          21 uses
+OUTBUF         18 uses
+
+
+Global Clock Buffers: 4
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 1 of 69 (1%)
+
+Total LUTs:    59
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  68 + 0 + 36 + 0 = 104;
+Total number of LUTs after P&R:  59 + 0 + 36 + 0 = 95;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 62MB peak: 170MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Sat Mar 20 18:41:30 2021
+
+###########################################################]

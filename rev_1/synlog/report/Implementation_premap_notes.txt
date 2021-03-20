@@ -1,0 +1,8 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FX1184 |Applying syn_allowed_resources blockrams=69 on top level netlist mia_simple_fifo_synch 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation.sap.
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\writecontroller.vhd":30:1:30:2|There are no possible illegal states for state machine PS[0:1] (in view: work.WR_Ctrl(rtl)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\readcontroller.vhd":29:1:29:2|There are no possible illegal states for state machine PS[0:1] (in view: work.RD_Ctrl(rtl)); safe FSM implementation is not required.

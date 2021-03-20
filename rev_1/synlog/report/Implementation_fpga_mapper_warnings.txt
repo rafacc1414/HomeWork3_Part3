@@ -1,0 +1,5 @@
+@W: FX107 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd":25:10:25:18|RAM SDPRAM.ram_block[15:0] (in view: work.mia_simple_fifo_synch(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: MT420 |Found inferred clock mia_simple_fifo_synch|rd_clk with period 6.67ns. Please declare a user-defined clock on port rd_clk.
+@W: MT420 |Found inferred clock FSM_Address_0|PS_inferred_clock[1] with period 6.67ns. Please declare a user-defined clock on net Read_FSM.PS_0[1].
+@W: MT420 |Found inferred clock mia_simple_fifo_synch|wr_clk with period 6.67ns. Please declare a user-defined clock on port wr_clk.
+@W: MT420 |Found inferred clock FSM_Address_1|PS_inferred_clock[1] with period 6.67ns. Please declare a user-defined clock on net Write_FSM.PS[1].

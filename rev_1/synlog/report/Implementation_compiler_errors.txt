@@ -1,0 +1,3 @@
+@E: CD185 :"C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd":84:19:84:19|Expecting readable signal name, got output:rd_data
+@E: Parse errors encountered - exiting
+

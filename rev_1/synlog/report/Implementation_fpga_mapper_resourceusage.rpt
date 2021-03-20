@@ -1,0 +1,37 @@
+Resource Usage Report for mia_simple_fifo_synch 
+
+Mapping to part: m2s050tvf400std
+Cell usage:
+CLKINT          4 uses
+CFG1           6 uses
+CFG2           9 uses
+CFG3           16 uses
+
+Carry cells:
+ARI1            28 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            68 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 39
+I/O primitives: 39
+INBUF          21 uses
+OUTBUF         18 uses
+
+
+Global Clock Buffers: 4
+
+Total LUTs:    59
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  68 + 0 + 36 + 0 = 104;
+Total number of LUTs after P&R:  59 + 0 + 36 + 0 = 95;
+

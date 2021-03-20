@@ -1,0 +1,533 @@
+<html><body><samp><pre>
+<!@TC:1616261699>
+# Sat Mar 20 18:34:54 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+<a name=mapperReport162></a>Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1616261699> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1616261699> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1616261699> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 130MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 160MB peak: 160MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+Encoding state machine RD_CTRL1.PS[0:1] (in view: work.mia_simple_fifo_synch(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\readcontroller.vhd:29:1:29:3:@N:MO225:@XP_MSG">readcontroller.vhd(29)</a><!@TM:1616261699> | There are no possible illegal states for state machine RD_CTRL1.PS[0:1] (in view: work.mia_simple_fifo_synch(rtl)); safe FSM implementation is not required.
+@N:<a href="@N:FX403:@XP_HELP">FX403</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd:25:10:25:19:@N:FX403:@XP_MSG">sdpram.vhd(25)</a><!@TM:1616261699> | Property "block_ram" or "no_rw_check" found for RAM SDPRAM.ram_block[15:0] with specified coding style. Inferring block RAM.
+<font color=#A52A2A>@W:<a href="@W:FX107:@XP_HELP">FX107</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd:25:10:25:19:@W:FX107:@XP_MSG">sdpram.vhd(25)</a><!@TM:1616261699> | RAM SDPRAM.ram_block[15:0] (in view: work.mia_simple_fifo_synch(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.</font>
+@A:<a href="@A:BN291:@XP_HELP">BN291</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd:39:6:39:8:@A:BN291:@XP_MSG">sdpram.vhd(39)</a><!@TM:1616261699> | Boundary register SDPRAM.q[15:0] (in view: work.mia_simple_fifo_synch(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd:86:12:86:29:@N:MF179:@XP_MSG">design.vhd(86)</a><!@TM:1616261699> | Found 16 by 16 bit equality operator ('==') un1_Mux_in_1 (in view: work.mia_simple_fifo_synch(rtl))
+Encoding state machine PS[0:1] (in view: work.WR_Ctrl(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\writecontroller.vhd:30:1:30:3:@N:MO225:@XP_MSG">writecontroller.vhd(30)</a><!@TM:1616261699> | There are no possible illegal states for state machine PS[0:1] (in view: work.WR_Ctrl(rtl)); safe FSM implementation is not required.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 167MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 167MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 167MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 167MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     1.92ns		  15 /        27
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1616261699> | Promoting Net rd_clk_c on CLKINT  I_13  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1616261699> | Promoting Net wr_clk_c on CLKINT  I_14  
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 168MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 168MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport163></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 46 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=================================== Non-Gated/Non-Generated Clocks ===================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance               
+------------------------------------------------------------------------------------------------------
+<a href="@|S:rd_clk@|E:FF_Out.S@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       rd_clk              port                   40         FF_Out.S                      
+<a href="@|S:wr_clk@|E:SDPRAM.ram_block_ram_block_0_0@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002  @XP_NAMES_BY_PROP">ClockId0002 </a>       wr_clk              port                   6          SDPRAM.ram_block_ram_block_0_0
+======================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 140MB peak: 168MB)
+
+Writing Analyst data base C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synwork\Implementation_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 168MB)
+
+Writing Verilog Simulation files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1616261699> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1616261699> | Synopsys Constraint File capacitance units using default value of 1pF  
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 169MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 170MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT246:@XP_HELP">MT246</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd:75:3:75:11:@W:MT246:@XP_MSG">design.vhd(75)</a><!@TM:1616261699> | Blackbox FSM_Address is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</font>
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1616261699> | Found inferred clock mia_simple_fifo_synch|rd_clk with period 6.67ns. Please declare a user-defined clock on port rd_clk.</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1616261699> | Found inferred clock mia_simple_fifo_synch|wr_clk with period 6.67ns. Please declare a user-defined clock on port wr_clk.</font> 
+
+
+<a name=timingReport164></a>##### START OF TIMING REPORT #####[</a>
+# Timing report written on Sat Mar 20 18:34:58 2021
+#
+
+
+Top view:               mia_simple_fifo_synch
+Requested Frequency:    150.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1616261699> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1616261699> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary165></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: 1.763
+
+                                 Requested     Estimated      Requested     Estimated               Clock        Clock              
+Starting Clock                   Frequency     Frequency      Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------
+mia_simple_fifo_synch|rd_clk     150.0 MHz     203.9 MHz      6.667         4.904         1.763     inferred     Inferred_clkgroup_0
+mia_simple_fifo_synch|wr_clk     150.0 MHz     476.0 MHz      6.667         2.101         4.566     inferred     Inferred_clkgroup_1
+System                           150.0 MHz     1062.7 MHz     6.667         0.941         5.726     system       system_clkgroup    
+====================================================================================================================================
+
+
+
+
+
+<a name=clockRelationships166></a>Clock Relationships</a>
+*******************
+
+Clocks                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------
+System                        mia_simple_fifo_synch|rd_clk  |  6.667       5.768  |  No paths    -      |  No paths    -      |  No paths    -    
+System                        mia_simple_fifo_synch|wr_clk  |  6.667       5.726  |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|rd_clk  System                        |  6.667       5.441  |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|rd_clk  mia_simple_fifo_synch|rd_clk  |  6.667       1.763  |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|rd_clk  mia_simple_fifo_synch|wr_clk  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|wr_clk  System                        |  6.667       5.100  |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|wr_clk  mia_simple_fifo_synch|rd_clk  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mia_simple_fifo_synch|wr_clk  mia_simple_fifo_synch|wr_clk  |  6.667       4.566  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo167></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport168></a>Detailed Report for Clock: mia_simple_fifo_synch|rd_clk</a>
+====================================
+
+
+
+<a name=startingSlack169></a>Starting Points with Worst Slack</a>
+********************************
+
+                                   Starting                                                                                         Arrival          
+Instance                           Reference                        Type        Pin            Net                                  Time        Slack
+                                   Clock                                                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[0]      ram_block_ram_block_0_0_NEWA[0]      2.263       1.763
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[2]      ram_block_ram_block_0_0_NEWA[2]      2.263       1.777
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[4]      ram_block_ram_block_0_0_NEWA[4]      2.263       1.792
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[6]      ram_block_ram_block_0_0_NEWA[6]      2.263       1.806
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[8]      ram_block_ram_block_0_0_NEWA[8]      2.263       1.821
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[10]     ram_block_ram_block_0_0_NEWA[10]     2.263       1.836
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[12]     ram_block_ram_block_0_0_NEWA[12]     2.263       1.850
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[14]     ram_block_ram_block_0_0_NEWA[14]     2.263       1.865
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[1]      ram_block_ram_block_0_0_NEWA[1]      2.263       2.133
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|rd_clk     RAM1K18     A_DOUT[3]      ram_block_ram_block_0_0_NEWA[3]      2.263       2.148
+=====================================================================================================================================================
+
+
+<a name=endingSlack170></a>Ending Points with Worst Slack</a>
+******************************
+
+                            Starting                                                                         Required          
+Instance                    Reference                        Type     Pin     Net                            Time         Slack
+                            Clock                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------
+FF_Out.S                    mia_simple_fifo_synch|rd_clk     SLE      D       un1_Mux_in_1_0_data_tmp[7]     6.411        1.763
+Registers\.11\.FF_Out.S     mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[11]                  6.411        2.619
+Registers\.4\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[4]                   6.411        2.619
+Registers\.1\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[1]                   6.411        2.619
+Registers\.5\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[5]                   6.411        2.619
+Registers\.7\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[7]                   6.411        2.619
+Registers\.6\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[6]                   6.411        2.619
+Registers\.12\.FF_Out.S     mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[12]                  6.411        2.619
+Registers\.3\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[3]                   6.411        2.619
+Registers\.9\.FF_Out.S      mia_simple_fifo_synch|rd_clk     SLE      D       rd_data_c[9]                   6.411        2.619
+===============================================================================================================================
+
+
+
+<a name=worstPaths171></a>Worst Path Information</a>
+<a href="C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synlog\Implementation_fpga_mapper.srr:srsfC:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation.srs:fp:18155:21725:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.411
+
+    - Propagation time:                      4.649
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.763
+
+    Number of logic level(s):                9
+    Starting point:                          SDPRAM.ram_block_ram_block_0_0 / A_DOUT[0]
+    Ending point:                            FF_Out.S / D
+    The start point is clocked by            mia_simple_fifo_synch|rd_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin A_CLK
+    The end   point is clocked by            mia_simple_fifo_synch|rd_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+
+Instance / Net                                                 Pin           Pin               Arrival     No. of    
+Name                                               Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+SDPRAM.ram_block_ram_block_0_0                     RAM1K18     A_DOUT[0]     Out     2.263     2.263 r     -         
+ram_block_ram_block_0_0_NEWA[0]                    Net         -             -       0.248     -           1         
+SDPRAM.ram_block_ram_block_0_0_OLDA_RNIBDRG[0]     CFG3        B             In      -         2.511 r     -         
+SDPRAM.ram_block_ram_block_0_0_OLDA_RNIBDRG[0]     CFG3        Y             Out     0.165     2.676 r     -         
+rd_data_c[0]                                       Net         -             -       1.117     -           4         
+un1_Mux_in_1_0_I_1                                 ARI1        D             In      -         3.793 r     -         
+un1_Mux_in_1_0_I_1                                 ARI1        FCO           Out     0.505     4.298 r     -         
+un1_Mux_in_1_0_data_tmp[0]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_9                                 ARI1        FCI           In      -         4.298 r     -         
+un1_Mux_in_1_0_I_9                                 ARI1        FCO           Out     0.015     4.313 r     -         
+un1_Mux_in_1_0_data_tmp[1]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_15                                ARI1        FCI           In      -         4.313 r     -         
+un1_Mux_in_1_0_I_15                                ARI1        FCO           Out     0.015     4.327 r     -         
+un1_Mux_in_1_0_data_tmp[2]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_27                                ARI1        FCI           In      -         4.327 r     -         
+un1_Mux_in_1_0_I_27                                ARI1        FCO           Out     0.015     4.342 r     -         
+un1_Mux_in_1_0_data_tmp[3]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_45                                ARI1        FCI           In      -         4.342 r     -         
+un1_Mux_in_1_0_I_45                                ARI1        FCO           Out     0.015     4.356 r     -         
+un1_Mux_in_1_0_data_tmp[4]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_33                                ARI1        FCI           In      -         4.356 r     -         
+un1_Mux_in_1_0_I_33                                ARI1        FCO           Out     0.015     4.371 r     -         
+un1_Mux_in_1_0_data_tmp[5]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_39                                ARI1        FCI           In      -         4.371 r     -         
+un1_Mux_in_1_0_I_39                                ARI1        FCO           Out     0.015     4.386 r     -         
+un1_Mux_in_1_0_data_tmp[6]                         Net         -             -       0.000     -           1         
+un1_Mux_in_1_0_I_21                                ARI1        FCI           In      -         4.386 r     -         
+un1_Mux_in_1_0_I_21                                ARI1        FCO           Out     0.015     4.400 r     -         
+un1_Mux_in_1_0_data_tmp[7]                         Net         -             -       0.248     -           1         
+FF_Out.S                                           SLE         D             In      -         4.649 r     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 4.904 is 3.290(67.1%) logic and 1.614(32.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+<a name=clockReport172></a>Detailed Report for Clock: mia_simple_fifo_synch|wr_clk</a>
+====================================
+
+
+
+<a name=startingSlack173></a>Starting Points with Worst Slack</a>
+********************************
+
+                                 Starting                                                          Arrival          
+Instance                         Reference                        Type     Pin     Net             Time        Slack
+                                 Clock                                                                              
+--------------------------------------------------------------------------------------------------------------------
+WR_CTRL1.PS[0]                   mia_simple_fifo_synch|wr_clk     SLE      Q       PS[0]           0.108       4.566
+Write_RST_Sinchroniser.FF2.S     mia_simple_fifo_synch|wr_clk     SLE      Q       wr_rst_sync     0.108       4.838
+Read_Bit_Sinchroniser.FF2.S      mia_simple_fifo_synch|wr_clk     SLE      Q       rd_bit          0.108       5.658
+Read_Bit_Sinchroniser.FF1.S      mia_simple_fifo_synch|wr_clk     SLE      Q       S               0.087       5.750
+Write_RST_Sinchroniser.FF1.S     mia_simple_fifo_synch|wr_clk     SLE      Q       S               0.087       5.750
+====================================================================================================================
+
+
+<a name=endingSlack174></a>Ending Points with Worst Slack</a>
+******************************
+
+                                   Starting                                                                      Required          
+Instance                           Reference                        Type            Pin          Net             Time         Slack
+                                   Clock                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|wr_clk     RAM1K18         B_WEN[0]     wr_busy_c       6.133        4.566
+SDPRAM.ram_block_ram_block_0_0     mia_simple_fifo_synch|wr_clk     RAM1K18         B_WEN[1]     wr_busy_c       6.133        4.566
+WR_CTRL1.PS[0]                     mia_simple_fifo_synch|wr_clk     SLE             D            PS_nsss[0]      6.411        4.838
+Write_FSM                          mia_simple_fifo_synch|wr_clk     FSM_Address     enable       wr_busy_c       6.667        5.100
+Write_FSM                          mia_simple_fifo_synch|wr_clk     FSM_Address     rst          wr_rst_sync     6.667        5.441
+Read_Bit_Sinchroniser.FF2.S        mia_simple_fifo_synch|wr_clk     SLE             D            S_0             6.411        5.750
+Write_RST_Sinchroniser.FF2.S       mia_simple_fifo_synch|wr_clk     SLE             D            S_0_2           6.411        5.750
+===================================================================================================================================
+
+
+
+<a name=worstPaths175></a>Worst Path Information</a>
+<a href="C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synlog\Implementation_fpga_mapper.srr:srsfC:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation.srs:fp:26386:26998:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.534
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.133
+
+    - Propagation time:                      1.567
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.566
+
+    Number of logic level(s):                1
+    Starting point:                          WR_CTRL1.PS[0] / Q
+    Ending point:                            SDPRAM.ram_block_ram_block_0_0 / B_WEN[0]
+    The start point is clocked by            mia_simple_fifo_synch|wr_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin CLK
+    The end   point is clocked by            mia_simple_fifo_synch|wr_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin B_CLK
+
+Instance / Net                                 Pin          Pin               Arrival     No. of    
+Name                               Type        Name         Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+WR_CTRL1.PS[0]                     SLE         Q            Out     0.108     0.108 f     -         
+PS[0]                              Net         -            -       0.248     -           1         
+WR_CTRL1.we_out                    CFG2        A            In      -         0.357 f     -         
+WR_CTRL1.we_out                    CFG2        Y            Out     0.087     0.444 f     -         
+wr_busy_c                          Net         -            -       1.123     -           6         
+SDPRAM.ram_block_ram_block_0_0     RAM1K18     B_WEN[0]     In      -         1.567 f     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 2.101 is 0.729(34.7%) logic and 1.371(65.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+<a name=clockReport176></a>Detailed Report for Clock: System</a>
+====================================
+
+
+
+<a name=startingSlack177></a>Starting Points with Worst Slack</a>
+********************************
+
+              Starting                                                           Arrival          
+Instance      Reference     Type            Pin                Net               Time        Slack
+              Clock                                                                               
+--------------------------------------------------------------------------------------------------
+Write_FSM     System        FSM_Address     address_out[0]     wr_address[0]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[1]     wr_address[1]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[2]     wr_address[2]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[3]     wr_address[3]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[4]     wr_address[4]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[5]     wr_address[5]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[6]     wr_address[6]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[7]     wr_address[7]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[8]     wr_address[8]     0.000       5.726
+Write_FSM     System        FSM_Address     address_out[9]     wr_address[9]     0.000       5.726
+==================================================================================================
+
+
+<a name=endingSlack178></a>Ending Points with Worst Slack</a>
+******************************
+
+                                   Starting                                                   Required          
+Instance                           Reference     Type        Pin            Net               Time         Slack
+                                   Clock                                                                        
+----------------------------------------------------------------------------------------------------------------
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[4]      wr_address[0]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[5]      wr_address[1]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[6]      wr_address[2]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[7]      wr_address[3]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[8]      wr_address[4]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[9]      wr_address[5]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[10]     wr_address[6]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[11]     wr_address[7]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[12]     wr_address[8]     6.036        5.726
+SDPRAM.ram_block_ram_block_0_0     System        RAM1K18     B_ADDR[13]     wr_address[9]     6.036        5.726
+================================================================================================================
+
+
+
+<a name=worstPaths179></a>Worst Path Information</a>
+<a href="C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\synlog\Implementation_fpga_mapper.srr:srsfC:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation.srs:fp:32076:32412:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.631
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.036
+
+    - Propagation time:                      0.310
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 5.726
+
+    Number of logic level(s):                0
+    Starting point:                          Write_FSM / address_out[0]
+    Ending point:                            SDPRAM.ram_block_ram_block_0_0 / B_ADDR[4]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            mia_simple_fifo_synch|wr_clk [rising] (rise=0.000 fall=3.333 period=6.667) on pin B_CLK
+
+Instance / Net                                     Pin                Pin               Arrival     No. of    
+Name                               Type            Name               Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+Write_FSM                          FSM_Address     address_out[0]     Out     0.000     0.000 r     -         
+wr_address[0]                      Net             -                  -       0.310     -           1         
+SDPRAM.ram_block_ram_block_0_0     RAM1K18         B_ADDR[4]          In      -         0.310 r     -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 0.941 is 0.631(67.0%) logic and 0.310(33.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 170MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 169MB peak: 170MB)
+
+---------------------------------------
+<a name=resourceUsage180></a>Resource Usage Report for mia_simple_fifo_synch </a>
+
+Mapping to part: m2s050tvf400std
+Cell usage:
+CLKINT          2 uses
+FSM_Address     2 uses
+CFG2           7 uses
+CFG3           16 uses
+
+Carry cells:
+ARI1            8 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            44 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 39
+I/O primitives: 39
+INBUF          21 uses
+OUTBUF         18 uses
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 1 of 69 (1%)
+
+Total LUTs:    31
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  44 + 0 + 36 + 0 = 80;
+Total number of LUTs after P&R:  31 + 0 + 36 + 0 = 67;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 62MB peak: 170MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:03s cputime
+# Sat Mar 20 18:34:59 2021
+
+###########################################################]
+
+</pre></samp></body></html>

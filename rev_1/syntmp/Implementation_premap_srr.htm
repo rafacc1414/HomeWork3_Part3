@@ -1,0 +1,111 @@
+<html><body><samp><pre>
+<!@TC:1616261694>
+# Sat Mar 20 18:34:52 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+<a name=mapperReport160></a>Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1616261694> | No constraint file specified. 
+Linked File:  <a href="C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation_scck.rpt:@XP_FILE">Implementation_scck.rpt</a>
+See clock summary report "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation_scck.rpt"
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1616261694> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1616261694> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1616261694> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 130MB)
+
+<font color=#A52A2A>@W:<a href="@W:FX1172:@XP_HELP">FX1172</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\ff_d.vhd:26:4:26:6:@W:FX1172:@XP_MSG">ff_d.vhd(26)</a><!@TM:1616261694> | User-specified initial value defined for instance Read_Bit_Sinchroniser.FF2.S is being ignored due to limitations in architecture. </font>
+@N:<a href="@N:FX1184:@XP_HELP">FX1184</a> : <!@TM:1616261694> | Applying syn_allowed_resources blockrams=69 on top level netlist mia_simple_fifo_synch  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+
+<a name=mapperReport161></a>Clock Summary</a>
+******************
+
+          Start                            Requested     Requested     Clock        Clock                   Clock
+Level     Clock                            Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------------------------------
+0 -       System                           150.0 MHz     6.667         system       system_clkgroup         0    
+                                                                                                                 
+0 -       mia_simple_fifo_synch|rd_clk     150.0 MHz     6.667         inferred     Inferred_clkgroup_0     39   
+                                                                                                                 
+0 -       mia_simple_fifo_synch|wr_clk     150.0 MHz     6.667         inferred     Inferred_clkgroup_1     22   
+=================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                 Clock     Source           Clock Pin                      Non-clock Pin     Non-clock Pin
+Clock                            Load      Pin              Seq Example                    Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------------------------------------
+System                           0         -                -                              -                 -            
+                                                                                                                          
+mia_simple_fifo_synch|rd_clk     39        rd_clk(port)     FF_Out.S.C                     -                 -            
+                                                                                                                          
+mia_simple_fifo_synch|wr_clk     22        wr_clk(port)     SDPRAM.ram_block[15:0].CLK     -                 -            
+==========================================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\ff_d.vhd:26:4:26:6:@W:MT530:@XP_MSG">ff_d.vhd(26)</a><!@TM:1616261694> | Found inferred clock mia_simple_fifo_synch|rd_clk which controls 39 sequential elements including Read_RST_Sinchroniser.FF1.S. This clock has no specified timing constraint which may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\ff_d.vhd:26:4:26:6:@W:MT530:@XP_MSG">ff_d.vhd(26)</a><!@TM:1616261694> | Found inferred clock mia_simple_fifo_synch|wr_clk which controls 22 sequential elements including Write_RST_Sinchroniser.FF1.S. This clock has no specified timing constraint which may adversely impact design performance. </font>
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1616261694> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1616261694> | Writing default property annotation file C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\rev_1\Implementation.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+Encoding state machine PS[0:1] (in view: work.WR_Ctrl(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\writecontroller.vhd:30:1:30:3:@N:MO225:@XP_MSG">writecontroller.vhd(30)</a><!@TM:1616261694> | There are no possible illegal states for state machine PS[0:1] (in view: work.WR_Ctrl(rtl)); safe FSM implementation is not required.
+Encoding state machine PS[0:1] (in view: work.RD_Ctrl(rtl))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\readcontroller.vhd:29:1:29:3:@N:MO225:@XP_MSG">readcontroller.vhd(29)</a><!@TM:1616261694> | There are no possible illegal states for state machine PS[0:1] (in view: work.RD_Ctrl(rtl)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 167MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Mar 20 18:34:54 2021
+
+###########################################################]
+
+</pre></samp></body></html>

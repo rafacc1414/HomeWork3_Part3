@@ -4,7 +4,7 @@ use IEEE.std_logic_1164.all;
 USE ieee.numeric_std.ALL;
 use work.mia_simple_fifo_synch_R.all;
 
-ENTITY FMS_Address IS
+ENTITY FSM_Address IS
    PORT
    (
       CLK            : IN   std_logic;
@@ -15,9 +15,9 @@ ENTITY FMS_Address IS
       
       
    );
-END FMS_Address;
+END FSM_Address;
 
-ARCHITECTURE rtl OF FMS_Address IS
+ARCHITECTURE rtl OF FSM_Address IS
  	type state_type is (STA,STB,STC);		-- STATE A, STATE B, STATE C
 	signal PS,NS : state_type;				-- PS = Current State  
     signal S     : std_logic_vector(9 Downto 0);

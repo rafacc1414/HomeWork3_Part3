@@ -1,0 +1,4 @@
+CKID0001:@|S:Write_FSM.PS[0]@|E:Write_FSM.address_out[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:Read_FSM.PS[0]@|E:Read_FSM.address_out[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:rd_clk@|E:FF_Out.S@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:wr_clk@|E:Write_FSM.PS[1]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 

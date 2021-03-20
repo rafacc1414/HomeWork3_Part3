@@ -1,0 +1,2 @@
+
+: 0 work.mia_simple_fifo_synch "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd" 7 7 work.d_ff work.FSM_Address work.ram_infer work.RD_Ctrl work.WR_Ctrl work.Sinchroniser 

@@ -1,0 +1,27 @@
+@P:  Worst Slack : 1.763
+@P:  FSM_Address_0|PS_inferred_clock[1] - Estimated Frequency : 660.9 MHz
+@P:  FSM_Address_0|PS_inferred_clock[1] - Requested Frequency : 150.0 MHz
+@P:  FSM_Address_0|PS_inferred_clock[1] - Estimated Period : 1.513
+@P:  FSM_Address_0|PS_inferred_clock[1] - Requested Period : 6.667
+@P:  FSM_Address_0|PS_inferred_clock[1] - Slack : 5.154
+@P:  FSM_Address_1|PS_inferred_clock[1] - Estimated Frequency : 660.9 MHz
+@P:  FSM_Address_1|PS_inferred_clock[1] - Requested Frequency : 150.0 MHz
+@P:  FSM_Address_1|PS_inferred_clock[1] - Estimated Period : 1.513
+@P:  FSM_Address_1|PS_inferred_clock[1] - Requested Period : 6.667
+@P:  FSM_Address_1|PS_inferred_clock[1] - Slack : 5.154
+@P:  mia_simple_fifo_synch|rd_clk - Estimated Frequency : 203.9 MHz
+@P:  mia_simple_fifo_synch|rd_clk - Requested Frequency : 150.0 MHz
+@P:  mia_simple_fifo_synch|rd_clk - Estimated Period : 4.904
+@P:  mia_simple_fifo_synch|rd_clk - Requested Period : 6.667
+@P:  mia_simple_fifo_synch|rd_clk - Slack : 1.763
+@P:  mia_simple_fifo_synch|wr_clk - Estimated Frequency : 473.6 MHz
+@P:  mia_simple_fifo_synch|wr_clk - Requested Frequency : 150.0 MHz
+@P:  mia_simple_fifo_synch|wr_clk - Estimated Period : 2.111
+@P:  mia_simple_fifo_synch|wr_clk - Requested Period : 6.667
+@P:  mia_simple_fifo_synch|wr_clk - Slack : 4.555
+@P: mia_simple_fifo_synch Part : m2s050tvf400std
+@P: mia_simple_fifo_synch Register bits  : 68 
+@P: mia_simple_fifo_synch DSP Blocks  : 0
+@P: mia_simple_fifo_synch I/O primitives : 39
+@P: mia_simple_fifo_synch RAM1K18 :  1
+@P:  CPU Time : 0h:00m:04s

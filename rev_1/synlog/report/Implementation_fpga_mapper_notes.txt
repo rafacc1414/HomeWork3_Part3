@@ -1,0 +1,15 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\readcontroller.vhd":29:1:29:2|There are no possible illegal states for state machine RD_CTRL1.PS[0:1] (in view: work.mia_simple_fifo_synch(rtl)); safe FSM implementation is not required.
+@N: FX403 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\sdpram.vhd":25:10:25:18|Property "block_ram" or "no_rw_check" found for RAM SDPRAM.ram_block[15:0] with specified coding style. Inferring block RAM.
+@N: MF179 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\design.vhd":86:12:86:28|Found 16 by 16 bit equality operator ('==') un1_Mux_in_1 (in view: work.mia_simple_fifo_synch(rtl))
+@N: MO225 :"c:\users\rafac\desktop\masterclue\curso\7_module_embedded_neural_networks\fpga\proyecto\github\homework3_part3\codigos_vhd\writecontroller.vhd":30:1:30:2|There are no possible illegal states for state machine PS[0:1] (in view: work.WR_Ctrl(rtl)); safe FSM implementation is not required.
+@N: FP130 |Promoting Net rd_clk_c on CLKINT  I_37 
+@N: FP130 |Promoting Net Read_FSM.PS_6 on CLKINT  I_38 
+@N: FP130 |Promoting Net Write_FSM.PS_6 on CLKINT  I_39 
+@N: FP130 |Promoting Net wr_clk_c on CLKINT  I_40 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

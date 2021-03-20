@@ -1,0 +1,59 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-V8NANO1
+
+Implementation : rev_1
+
+# Written on Sat Mar 20 18:41:22 2021
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                  Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                  Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------
+0 -       mia_simple_fifo_synch|rd_clk           150.0 MHz     6.667         inferred     Inferred_clkgroup_0     42   
+                                                                                                                       
+0 -       mia_simple_fifo_synch|wr_clk           150.0 MHz     6.667         inferred     Inferred_clkgroup_2     25   
+                                                                                                                       
+0 -       FSM_Address_0|PS_inferred_clock[1]     150.0 MHz     6.667         inferred     Inferred_clkgroup_1     10   
+                                                                                                                       
+0 -       FSM_Address_1|PS_inferred_clock[1]     150.0 MHz     6.667         inferred     Inferred_clkgroup_3     10   
+=======================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                       Clock     Source                                   Clock Pin                        Non-clock Pin     Non-clock Pin
+Clock                                  Load      Pin                                      Seq Example                      Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+mia_simple_fifo_synch|rd_clk           42        rd_clk(port)                             FF_Out.S.C                       -                 -            
+                                                                                                                                                          
+mia_simple_fifo_synch|wr_clk           25        wr_clk(port)                             Write_FSM.PS[0:2].C              -                 -            
+                                                                                                                                                          
+FSM_Address_0|PS_inferred_clock[1]     10        Read_FSM.PS[0:2].Q[1](statemachine)      Read_FSM.address_out[9:0].C      -                 -            
+                                                                                                                                                          
+FSM_Address_1|PS_inferred_clock[1]     10        Write_FSM.PS[0:2].Q[1](statemachine)     Write_FSM.address_out[9:0].C     -                 -            
+==========================================================================================================================================================

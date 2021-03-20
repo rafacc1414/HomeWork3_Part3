@@ -1,0 +1,68 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\rev_1\\synwork\\Implementation_comp.srs|-autotop|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_vhdl.exe":1604390270
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd2008\\location.map":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd2008\\std.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1604390293
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\package.vhd":1616260150
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\WriteController.vhd":1616261092
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\FF_D.vhd":1616260134
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\Sinchroniser.vhd":1616260150
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\SDPRAM.vhd":1616260150
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\ReadController.vhd":1616260150
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\FSM_Address.vhd":1616262073
+#CUR:"C:\\Users\\rafac\\Desktop\\MasterClue\\Curso\\7_Module_Embedded_Neural_Networks\\FPGA\\Proyecto\\Github\\HomeWork3_Part3\\Codigos_VHD\\design.vhd":1616260129
+0 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\WriteController.vhd" vhdl
+1 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\Sinchroniser.vhd" vhdl
+2 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\SDPRAM.vhd" vhdl
+3 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\ReadController.vhd" vhdl
+4 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\package.vhd" vhdl
+5 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FSM_Address.vhd" vhdl
+6 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\FF_D.vhd" vhdl
+7 "C:\Users\rafac\Desktop\MasterClue\Curso\7_Module_Embedded_Neural_Networks\FPGA\Proyecto\Github\HomeWork3_Part3\Codigos_VHD\design.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 4 
+1 6 4 
+2 4 
+3 4 
+4 -1
+5 4 
+6 4 
+7 1 0 3 2 5 6 4 
+
+# Dependency Lists (Users Of)
+0 7 
+1 7 
+2 7 
+3 7 
+4 7 6 5 3 2 1 0 
+5 7 
+6 7 1 
+7 -1
+
+# Design Unit to File Association
+arch work wr_ctrl rtl 0
+module work wr_ctrl 0
+arch work sinchroniser rtl 1
+module work sinchroniser 1
+arch work ram_infer rtl 2
+module work ram_infer 2
+arch work rd_ctrl rtl 3
+module work rd_ctrl 3
+arch work fsm_address rtl 5
+module work fsm_address 5
+arch work d_ff my_d_ff 6
+module work d_ff 6
+arch work mia_simple_fifo_synch rtl 7
+module work mia_simple_fifo_synch 7
+
+
+# Configuration files used
