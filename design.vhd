@@ -69,10 +69,10 @@ BEGIN
              
     wr_busy <= we_out;      
     
-   Write_FMS: FMS_Address
+   Write_FSM: FSM_Address
      port map(CLK=>wr_clk,rst => wr_rst_sync, enable =>we_out, address_out=>wr_address);
      
-   Read_FMS: FMS_Address
+   Read_FSM: FSM_Address
      port map(CLK=>rd_clk,rst => rd_rst_sync, enable =>re_out, address_out=>rd_address);
              
     
