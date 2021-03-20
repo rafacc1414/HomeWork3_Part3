@@ -10,3 +10,15 @@ The original diagram to implement is
 
 What we are actually going to implement after a long time thinking about the behaviour of these diagram is what we see in the next figure. 
 ![](https://github.com/rafacc1414/HomeWork3_Part3/blob/main/Images/P3Diagram.JPG)
+
+
+Apart from that, I created some directories which I am going to explain: 
+- Codigos_VHD: This folder contains the esential VHDL code to sinthesise the project 
+- FMS_Address: Contains just these component with its testbench to verifies its behaiviour
+- Images: Contains all the images used in this github project
+- rev1: It has the files that synplify creates automatically after sinthethise.
+- Sinchroniser: It has just the Sinchroniser component with its testbench
+- WriteController: It contains the WriteController component with its testbench
+
+Apart from that, the files __implementarion.prd__ and __implementation.prj__ are the ones created by the synplify. 
+__implementation.prj__  can be open as a project in synplify.
