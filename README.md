@@ -6,7 +6,7 @@ You are going to create parts of a Synchronization FIFO.
 - Note that the resets are asynchronous are need to be synchronized. The resets are used for the pointer and control logic. NOT for the RAM.
 
 The original diagram to implement is
-![](https://github.com/rafacc1414/HomeWork3_Part3/blob/main/P3OriginalScheme.png)
+![](https://github.com/rafacc1414/HomeWork3_Part3/blob/main/Images/P3OriginalScheme.png)
 
 What we are actually going to implement after a long time thinking about the behaviour of these diagram is what we see in the next figure. 
 ![](https://github.com/rafacc1414/HomeWork3_Part3/blob/main/Images/P3Diagram.JPG)
